@@ -1,0 +1,73 @@
+:root{
+    --primary-color:#7B89A6;
+    --secondary-color:#8F9FBF;
+    --tertiary-color:#9FADBF;
+    --quaternary-color:#A9C6D9;
+    --quinary-color:#D9D9D9;
+    --light-color:white;
+    --black-color:black;
+}
+* {
+    outline: 1px solid purple;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background: var(--secondary-color);
+background: linear-gradient(90deg, var(--secondary-color), rgba(169,198,217,1) 48%, rgba(217,217,217,1) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 4px;
+}
+
+header .item{
+    outline: 1 px solid var(--light-color);
+    padding: 8px;
+    border-radius: 8px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .item:hover{
+    background-color: var(--quaternary-color);
+    transition: all 0.5s
+}
+header .item a {
+    text-decoration: none;
+    color: var(--light-color);
+    font-size: 1.2rem;
+}
+
+section{
+    height: 80vh;
+    padding: 32px;
+}
+
+section h1 {
+    font-size: 2rem;
+}
+
+section p {
+    font-size: 1.2rem;
+}
+
+section .image-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .image-list img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.brasil {background: var(--tertiary-color);}
+.india {background: var();}
